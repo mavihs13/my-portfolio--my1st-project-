@@ -1,0 +1,193 @@
+body{
+    text-align: center;
+    margin-top: 0px;
+    
+    font-family: 'Merriweather', serif;
+}
+.top-container{
+    background: rgb(231, 243, 248);
+
+    width: 100%;
+    margin-top: 0%;
+    /* line-height: normal; */
+    /* background-color: red; */
+    
+}
+.middle-container{
+    margin: 100px 0px;
+}
+.upper-cloud{
+    margin-top: 0px;
+    width: 200px;
+    position: relative;
+    left: 300px;
+    top: 30px;
+    /* background-color: pink; */
+
+}
+.lower-cloud{
+    position: absolute;
+    width: 200px;
+    /* bottom: 150px; */
+    
+}
+h1{
+    color: #66bfbf;
+    line-height: normal;
+    font-size: 90px;
+    margin:0%;
+    font-family: 'Sacramento', cursive;
+
+}
+h2{
+    color: #66bfbf;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+h3{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+}
+h4{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+}
+hr{
+    border-top: 5px dotted black;
+    width: 5%;
+}
+
+.profile{
+    border-radius: 1000px;
+    width: 150px;
+}
+.intro{
+    width: 40%;
+    margin: 40px auto 60px;
+
+}
+  .skill{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2; 
+    
+} 
+/* .skill-discription{
+    clear: left;
+} */
+.skill2{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: right; 
+    line-height: 2;
+    }
+    /* .skill2-discription{
+        clear: right;
+    } */
+.skill-icon{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+  }
+   .contact {
+    background: #0fdb9e;
+    background-image: -webkit-linear-gradient(top, #0fdb9e, #34648a);
+    background-image: -moz-linear-gradient(top, #0fdb9e, #34648a);
+    background-image: -ms-linear-gradient(top, #0fdb9e, #34648a);
+    background-image: -o-linear-gradient(top, #0fdb9e, #34648a);
+    background-image: linear-gradient(to bottom, #0fdb9e, #34648a);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Arial;
+    color: #d3e1ed;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .contact:hover {
+    background: #79b9e0;
+    background-image: -webkit-linear-gradient(top, #79b9e0, #3498db);
+    background-image: -moz-linear-gradient(top, #79b9e0, #3498db);
+    background-image: -ms-linear-gradient(top, #79b9e0, #3498db);
+    background-image: -o-linear-gradient(top, #79b9e0, #3498db);
+    background-image: linear-gradient(to bottom, #79b9e0, #3498db);
+    text-decoration: none;
+  }
+  
+   .intrest{
+        margin-bottom: 40px;
+    }
+    .footer{
+    background-color: rgb(120, 184, 239);
+   padding:50px 0 20px ;
+  }
+  .intrest-icon{
+     width: 20%;
+     float: right;
+     margin-left:30px;
+  }
+  .insta{
+    width: 36px;
+    }
+    
+  .linkedin{
+    width: 38px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .git{
+    width: 45px;
+   
+  }
+  .copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+  }
+  .contact-form{
+    margin: 10px;
+  }
+  .name-box{
+    border-radius: 10px;
+    
+  }
+  .mail-box{
+    border-radius: 10px;
+  }
+  .password-box{
+    border-radius: 10px;
+  }
+  .phoneno-box{
+    border-radius: 10px;
+  }
+  .submit-box {
+    background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+}
+
+.submit-box:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
